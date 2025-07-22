@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Console", "01_Console\01_Console.csproj", "{985BE858-58FE-4E9D-B6D5-D27D4C6A6001}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Exception-Handling", "11_Exception-Handling\11_Exception-Handling.csproj", "{989CC11C-CEF9-46DC-9EBE-B9043511BC60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Emums-and-Structs", "12_Emums-and-Structs\12_Emums-and-Structs.csproj", "{67AB1D39-032A-4DDE-A1D7-B64A5DC7835B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Collections", "13_Collections\13_Collections.csproj", "{DC66C53A-4A4A-4ED0-BBBF-6F0FEBB1AF64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{67AB1D39-032A-4DDE-A1D7-B64A5DC7835B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67AB1D39-032A-4DDE-A1D7-B64A5DC7835B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67AB1D39-032A-4DDE-A1D7-B64A5DC7835B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC66C53A-4A4A-4ED0-BBBF-6F0FEBB1AF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC66C53A-4A4A-4ED0-BBBF-6F0FEBB1AF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC66C53A-4A4A-4ED0-BBBF-6F0FEBB1AF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC66C53A-4A4A-4ED0-BBBF-6F0FEBB1AF64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
