@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Emums-and-Structs", "12_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Collections", "13_Collections\13_Collections.csproj", "{DC66C53A-4A4A-4ED0-BBBF-6F0FEBB1AF64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Stack-and-Queue", "14_Stack-and-Queue\14_Stack-and-Queue.csproj", "{ED9BD384-557C-41C4-B549-8B2B5DEE9E92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{DC66C53A-4A4A-4ED0-BBBF-6F0FEBB1AF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC66C53A-4A4A-4ED0-BBBF-6F0FEBB1AF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC66C53A-4A4A-4ED0-BBBF-6F0FEBB1AF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9BD384-557C-41C4-B549-8B2B5DEE9E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9BD384-557C-41C4-B549-8B2B5DEE9E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9BD384-557C-41C4-B549-8B2B5DEE9E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9BD384-557C-41C4-B549-8B2B5DEE9E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
