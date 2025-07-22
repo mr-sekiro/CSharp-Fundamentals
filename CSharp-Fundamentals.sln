@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Variables-and-Datatypes"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Casting", "03_Casting\03_Casting.csproj", "{9D41E9C5-B206-4035-9BF2-DFE545BE13F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Operators", "04_Operators\04_Operators.csproj", "{D5913303-D7B1-46AF-A3F4-7BFA224D8176}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9D41E9C5-B206-4035-9BF2-DFE545BE13F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D41E9C5-B206-4035-9BF2-DFE545BE13F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D41E9C5-B206-4035-9BF2-DFE545BE13F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5913303-D7B1-46AF-A3F4-7BFA224D8176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5913303-D7B1-46AF-A3F4-7BFA224D8176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5913303-D7B1-46AF-A3F4-7BFA224D8176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5913303-D7B1-46AF-A3F4-7BFA224D8176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
