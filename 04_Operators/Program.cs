@@ -117,6 +117,23 @@
 
             #endregion
             #endregion
+
+            #region C# Math
+            //Console.WriteLine("Max of 5, 10 is: {0}", Math.Max(5, 10));
+            //Console.WriteLine("Min of 5, 10 is: {0}", Math.Min(5, 10));
+            //Console.WriteLine("Squir Root of 64 is: {0}", Math.Sqrt(64));
+            //Console.WriteLine("Absolute (positive) value of  -4.7 is: {0}", Math.Abs(-4.7));
+            //Console.WriteLine("Round of 9.99 is: {0}", Math.Round(9.99)); 
+            #endregion
+
+            #region Random Function
+            //Random rnd = new Random();
+
+            //for (int j = 0; j < 4; j++)
+            //{
+            //    Console.WriteLine(rnd.Next(10, 20)); //Console.WriteLine(Random.Shared.Next(10,20)); //returns random integers >= 10 and < 20
+            //}
+            #endregion
         }
     }
 }
