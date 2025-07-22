@@ -1,6 +1,13 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics.Metrics;
 using System.Globalization;
+using System.Numerics;
+using System.Reflection.Emit;
+using System.Reflection.Metadata;
+using System.Runtime.Intrinsics.X86;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace _02_Variables_and_Datatypes
 {
@@ -20,6 +27,45 @@ namespace _02_Variables_and_Datatypes
             double MyDouble = 25.89D;
             char MyLetter = 'M';
             bool MyBool = true;
+
+            #endregion
+
+            #region Constants
+            //const (short for constant) is a keyword used to declare compile-time constants — values that never change and are known at compile time.
+            //Must be initialized at the time of declaration.
+            //The value cannot change throughout the program.
+            //const fields are implicitly static.
+            //Can only be of primitive types, string, or types that can be fully evaluated at compile time.
+
+            //const double Pi = 3.14159;
+            //const int MaxScore = 100;
+            //Console.WriteLine(Pi);       // Output: 3.14159
+            //Console.WriteLine(MaxScore); // Output: 100
+
+            ////const DateTime Today = DateTime.Now; // Compile-time error: not a constant expression
+
+            #endregion
+
+            #region Readonly
+            //readonly is a keyword used to declare fields whose values can only be set once, either at declaration or inside a constructor.
+            //It's useful when a value is not known at compile-time but should never change afterward.
+
+            //Can be set in:
+            //  Declaration
+            //  Constructor(for instance members)
+            //  Static constructor(for static readonly fields)
+
+            //After assignment, value cannot be modified.
+            //Often used for values that are known at runtime but must remain constant once set.
+            //Can be of any type, including classes, structs, DateTime, arrays, etc.
+
+            //=====================================================================//
+            //const vs readonly:
+            //Feature               const                           readonly
+            //Set When              At declaration(compile-time)	At declaration or constructor(runtime)
+            //Changeable            Never                           Only once
+            //Data Type             Only primitives, string         Any type
+            //Static                Implicitly static               Instance-level by default
 
             #endregion
 
