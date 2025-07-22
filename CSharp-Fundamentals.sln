@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Nullable", "09_Nullable\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Methods", "10_Methods\10_Methods.csproj", "{128356C1-FC71-4BA5-AB07-414B2F6D4487}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Exception-Handling", "11_Exception-Handling\11_Exception-Handling.csproj", "{989CC11C-CEF9-46DC-9EBE-B9043511BC60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{128356C1-FC71-4BA5-AB07-414B2F6D4487}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{128356C1-FC71-4BA5-AB07-414B2F6D4487}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{128356C1-FC71-4BA5-AB07-414B2F6D4487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989CC11C-CEF9-46DC-9EBE-B9043511BC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989CC11C-CEF9-46DC-9EBE-B9043511BC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989CC11C-CEF9-46DC-9EBE-B9043511BC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989CC11C-CEF9-46DC-9EBE-B9043511BC60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
