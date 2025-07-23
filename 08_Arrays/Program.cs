@@ -1,4 +1,9 @@
-﻿namespace _08_Arrays
+﻿using System.Drawing;
+using System.Xml.Linq;
+using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace _08_Arrays
 {
     internal class Program
     {
@@ -217,6 +222,44 @@
             #endregion
 
             #endregion
+
+            #region Shallow Copy
+            ////Shallow Copy
+            ////Definition: Copies the references of the elements, not the actual objects.
+            ////Effect: Both arrays point to the same objects in memory.Changing one element in the original array affects the other.
+
+            //string[] original = { "A", "B", "C" };
+            //string[] shallowCopy = original;
+
+            //shallowCopy[0] = "Z";
+            //Console.WriteLine("HashCode of original : {0}", original.GetHashCode());
+            //Console.WriteLine("HashCode of shallowCopy : {0}", shallowCopy.GetHashCode());
+            //Console.WriteLine("Original[0]: " + original[0]); // Output: Z (changed!)
+            //Console.WriteLine("ShallowCopy[0]: " + shallowCopy[0]); // Output: Z
+
+            #endregion
+
+            #region Deep Copy
+            ////Deep Copy
+            ////Definition: Creates a new array and copies the actual data, not just references.
+            ////Effect: Changing one array does not affect the other.
+
+            //int[] original = { 1, 2, 3 };
+            ////int[] deepCopy = new int[original.Length];
+
+            ////for (int i = 0; i < original.Length; i++)
+            ////{
+            ////    deepCopy[i] = original[i];
+            ////}
+            //int[] deepCopy = (int[]) original.Clone();
+            //deepCopy[0] = 99;
+
+            //Console.WriteLine("HashCode of original : {0}", original.GetHashCode());
+            //Console.WriteLine("HashCode of shallowCopy : {0}", deepCopy.GetHashCode());
+            //Console.WriteLine("Original[0]: " + original[0]); // Output: 1
+            //Console.WriteLine("DeepCopy[0]: " + deepCopy[0]); // Output: 99
+            #endregion
+
         }
     }
 }
