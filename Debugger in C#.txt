@@ -1,0 +1,99 @@
+==============================
+      Debugger in C# Guide
+==============================
+
+In C#, the debugger is a tool that helps developers inspect, monitor, and control
+the execution of code during runtime. It is mainly used to find and fix bugs,
+understand control flow, and analyze variable values.
+
+------------------------------------------------
+WHAT IS A DEBUGGER?
+------------------------------------------------
+
+A debugger allows you to:
+- Step through code line by line
+- Inspect variables and objects at runtime
+- Set breakpoints to pause execution
+- Watch expressions and their values
+- Modify variable values during runtime
+- View the call stack and trace back errors
+
+------------------------------------------------
+COMMON DEBUGGER ACTIONS IN VISUAL STUDIO
+------------------------------------------------
+
+Action               | Description
+---------------------|----------------------------------------------
+Breakpoint (F9)      | Pause execution at a specific line
+Step Over (F10)      | Execute the line and move to the next
+Step Into (F11)      | Go inside the function being called
+Step Out (Shift+F11) | Exit the current function
+Continue (F5)        | Resume execution until the next breakpoint
+Watch Window         | Monitor specific variables or expressions
+Call Stack           | View the execution call history
+Immediate Window     | Run expressions during a paused state
+
+------------------------------------------------
+EXAMPLE: DEBUGGING A SIMPLE PROGRAM
+------------------------------------------------
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int a = 10;
+        int b = 5;
+        int result = Add(a, b);
+        Console.WriteLine("Result: " + result);
+    }
+
+    static int Add(int x, int y)
+    {
+        int sum = x + y;
+        return sum;
+    }
+}
+
+HOW TO DEBUG:
+1. Set a breakpoint on: int result = Add(a, b);
+2. Press F5 to start debugging
+3. Press F11 to step into Add()
+4. Use the Watch window to observe x, y, and sum
+5. Press F10 to step over lines
+
+------------------------------------------------
+TYPES OF BREAKPOINTS
+------------------------------------------------
+
+Type                   | Description
+------------------------|--------------------------------------------
+Standard Breakpoint     | Pauses at a specified line
+Conditional Breakpoint  | Pauses only if a condition is met
+Hit Count Breakpoint    | Pauses after being hit N times
+Function Breakpoint     | Pauses when a function is called
+Data Breakpoint         | (Native only) Triggers when a variable changes
+
+------------------------------------------------
+VISUAL STUDIO WINDOWS FOR DEBUGGING
+------------------------------------------------
+
+- Locals Window    : Shows all variables in scope
+- Autos Window     : Shows current and recent variables
+- Watch Window     : Track specific expressions/variables
+- Call Stack       : Shows the function call hierarchy
+- Output Window    : Logs and debugger messages
+- Immediate Window : Execute code during break
+
+------------------------------------------------
+GOOD DEBUGGING PRACTICES
+------------------------------------------------
+
+- Use clear and meaningful breakpoints
+- Prefer conditional breakpoints when possible
+- Regularly inspect variables with Watch/Locals
+- Check the call stack when exceptions occur
+- Always debug in Debug mode
+
+------------------------------------------------
